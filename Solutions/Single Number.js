@@ -6,5 +6,5 @@
 
 //Using the XOR operator, all elements that appear twice will be changed to 0, leaving the single number behind
 const singleNumber = (nums) => {
-    return nums.reduce((x,y) => x ^ y, 0)
+  return nums.reduce((x,y) => x ^ y, 0)
 };
